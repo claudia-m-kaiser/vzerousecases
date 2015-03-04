@@ -1,0 +1,32 @@
+dependencies: \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/PayPal/BTPayPalAppSwitchHandler.m \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/PayPal/BTPayPalAppSwitchHandler_Internal.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/PayPal/BTPayPalAppSwitchHandler.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/API/@Public/BTAppSwitching.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/API/@Public/BTClient.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/API/@Public/BTCardPaymentMethod.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/API/@Public/BTPaymentMethod.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/API/@Public/BTPayPalPaymentMethod.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/API/@Public/BTApplePayPaymentMethod.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/API/@Public/BTErrors.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/API/@Public/BTClientCardRequest.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/API/@Public/BTClientCardTokenizationRequest.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/API/@Public/BTAppSwitchingDelegate.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/API/@Public/BTAppSwitchErrors.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/PayPal/@Public/BTErrors+BTPayPal.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/API/@Public/BTClient_Metadata.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/API/Client/BTClientMetadata.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/PayPal/@Public/BTClient+BTPayPal.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/API/Models/BTMutablePayPalPaymentMethod.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/API/Models/BTPayPalPaymentMethod_Mutable.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/API/Models/BTPaymentMethod_Mutable.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/API/Utility/BTLogger_Internal.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/API/@Public/BTLogger.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/PayPal/mSDK/PayPalMobile.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/PayPal/mSDK/PayPalConfiguration.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/PayPal/mSDK/PayPalFuturePaymentViewController.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/PayPal/mSDK/PayPalOAuthScopes.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/PayPal/mSDK/PayPalPayment.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/PayPal/mSDK/PayPalPaymentViewController.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/PayPal/mSDK/PayPalProfileSharingViewController.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/PayPal/mSDK/PayPalTouch.h

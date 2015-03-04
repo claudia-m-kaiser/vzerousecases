@@ -1,0 +1,6 @@
+#include "Pods-CardIO.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/CardIO" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/Braintree" "${PODS_ROOT}/Headers/CardIO" "${PODS_ROOT}/Headers/PureLayout"
+LIBRARY_SEARCH_PATHS = ${PODS_CARDIO_LIBRARY_SEARCH_PATHS}
+OTHER_LDFLAGS = -ObjC ${PODS_CARDIO_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}

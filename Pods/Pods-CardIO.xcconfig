@@ -1,0 +1,2 @@
+PODS_CARDIO_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/CardIO/CardIO"
+PODS_CARDIO_OTHER_LDFLAGS = -lCardIO -lc++ -framework AVFoundation -framework AudioToolbox -framework CoreMedia -framework CoreVideo -framework MobileCoreServices -framework OpenGLES -framework QuartzCore -framework Security -framework UIKit

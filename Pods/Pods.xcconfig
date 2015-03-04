@@ -1,0 +1,8 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+GCC_TREAT_WARNINGS_AS_ERRORS = YES YES YES
+GCC_WARN_ABOUT_MISSING_NEWLINE = YES
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/Braintree" "${PODS_ROOT}/Headers/CardIO" "${PODS_ROOT}/Headers/PureLayout"
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/Braintree/Braintree/PayPal/mSDK" "$(PODS_ROOT)/CardIO/CardIO"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers" -isystem "${PODS_ROOT}/Headers/AFNetworking" -isystem "${PODS_ROOT}/Headers/Braintree" -isystem "${PODS_ROOT}/Headers/CardIO" -isystem "${PODS_ROOT}/Headers/PureLayout"
+OTHER_LDFLAGS = -ObjC -ObjC -lCardIO -lPayPalMobile -lc++ -framework AVFoundation -framework AddressBook -framework AudioToolbox -framework CoreGraphics -framework CoreLocation -framework CoreMedia -framework CoreVideo -framework MessageUI -framework MobileCoreServices -framework OpenGLES -framework QuartzCore -framework Security -framework SystemConfiguration -framework UIKit -weak_framework PassKit
+PODS_ROOT = ${SRCROOT}/Pods

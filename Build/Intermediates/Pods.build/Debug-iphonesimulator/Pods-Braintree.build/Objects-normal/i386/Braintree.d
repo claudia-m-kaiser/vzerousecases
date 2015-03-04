@@ -1,0 +1,42 @@
+dependencies: \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/Braintree.m \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/Braintree_Internal.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/Braintree.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/Braintree-API.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTClient.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTCardPaymentMethod.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTPaymentMethod.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTPayPalPaymentMethod.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTApplePayPaymentMethod.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTErrors.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTClientCardRequest.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTClientCardTokenizationRequest.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTLogger.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTAppSwitchErrors.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/Braintree-PayPal.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTErrors+BTPayPal.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTPayPalButton.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/Braintree-Payments-UI.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTUICTAControl.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTUI.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTUIPaymentMethodType.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTUIVectorArtView.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTUISummaryView.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTUIThemedView.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTUICardFormView.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTUIPaymentMethodView.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTUIVenmoButton.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTUIPayPalButton.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTPayPalViewController.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/Braintree-Payments.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTPaymentProvider.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTPaymentProviderErrors.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTPaymentMethodCreationDelegate.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTDropInViewController.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/BuildHeaders/Braintree/BTPaymentButton.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/PayPal/@Public/BTClient+BTPayPal.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/API/App\ Switch/BTAppSwitch.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/API/@Public/BTAppSwitching.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/API/@Public/BTAppSwitchingDelegate.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/Venmo/BTVenmoAppSwitchHandler.h \
+  /Users/clkaiser/XcodeProjects/VZeroUseCases/Pods/Braintree/Braintree/PayPal/BTPayPalAppSwitchHandler.h
