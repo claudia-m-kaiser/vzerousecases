@@ -23,7 +23,7 @@
 - (void) setEnvironment:(BraintreeEnvironment) environment{
     switch (environment) {
         case Sandbox:
-            self.sessionManager = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:[NSURL URLWithString:@"http://localhost:9000/sandbox/"]];
+            self.sessionManager = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:[NSURL URLWithString:@"https://vzerotraining.herokuapp.com/"]];
             break;
             
         case Production:
@@ -38,7 +38,9 @@
 
 -(void)initialiseBraintreeGatewayWithCustomerID:(NSString*)customerID {
     
-    [self.sessionManager GET:@"client_token"
+    
+    
+    [self.sessionManager GET:@"sandbox/client_token"
                          parameters:@{@"customerId": customerID}
                          success:^(AFHTTPRequestOperation *operation, id responseObject) {
              
@@ -62,7 +64,7 @@
     
     NSDictionary *params = @{@"payment_method_nonce" : nonce, @"store_in_vault" : @"true" };
     
-    [self.sessionManager POST:@"/gateway/transaction/create"
+    [self.sessionManager POST:@"gateway/transaction/create"
                    parameters:params
                       success:^(__unused AFHTTPRequestOperation *operation, __unused id responseObject) {
                           NSString *transactionID = responseObject[@"transaction_id"];

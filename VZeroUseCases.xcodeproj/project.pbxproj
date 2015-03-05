@@ -48,6 +48,7 @@
 		66300DB91A33DE4B0079CBAF /* CustomUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUIViewController.m; sourceTree = "<group>"; };
 		66300DBB1A33F8E80079CBAF /* BraintreeMerchantService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BraintreeMerchantService.h; sourceTree = "<group>"; };
 		66300DBC1A33F8E80079CBAF /* BraintreeMerchantService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BraintreeMerchantService.m; sourceTree = "<group>"; };
+		6669367B1AA7B73300EF3DBD /* VZeroUseCases.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = VZeroUseCases.entitlements; sourceTree = "<group>"; };
 		D6B8622764CB45A2BC2816E9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -93,6 +94,7 @@
 		6628DB6A1A328BC200727005 /* VZeroUseCases */ = {
 			isa = PBXGroup;
 			children = (
+				6669367B1AA7B73300EF3DBD /* VZeroUseCases.entitlements */,
 				66300DBE1A342CEA0079CBAF /* Controllers */,
 				6628DB6F1A328BC200727005 /* UseCasesAppDelegate.h */,
 				6628DB701A328BC200727005 /* UseCasesAppDelegate.m */,
@@ -202,6 +204,12 @@
 				TargetAttributes = {
 					6628DB671A328BC200727005 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = AWZQ9K4E8R;
+						SystemCapabilities = {
+							com.apple.OMC = {
+								enabled = 1;
+							};
+						};
 					};
 					6628DB801A328BC200727005 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -413,6 +421,9 @@
 			baseConfigurationReference = 444101A80B0A4FBD8E0602A3 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VZeroUseCases/VZeroUseCases.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VZeroUseCases/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -452,7 +463,7 @@
 					PassKit,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5a9e585f-7e53-4ef5-95cb-cf5865cab577";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -461,6 +472,9 @@
 			baseConfigurationReference = 444101A80B0A4FBD8E0602A3 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VZeroUseCases/VZeroUseCases.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VZeroUseCases/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -500,7 +514,7 @@
 					PassKit,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5a9e585f-7e53-4ef5-95cb-cf5865cab577";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
